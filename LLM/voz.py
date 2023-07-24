@@ -17,3 +17,4 @@ print("Acabas de decir: ")
 frase = reconocimiento.recognize_google(audio, language='es-EC')
 print(frase)
 url="https://www.google.com/search?q="
+wb.open(url+frase)
